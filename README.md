@@ -5,23 +5,7 @@ This repository implements a full pipeline for training and evaluating a video c
 
 The classification model is a **3D Convolutional Neural Network (3D CNN)**. It processes input tensors of shape `(20, 50, 50, 3)` representing a video-patch of 20 frames, each 50×50 pixels, RGB.
 
-![CNN Architecture](img/CNN.png)
-
-### Layers Summary:
-
-#### 3D Convolutional Blocks:
-- 2× `Conv3D(128)` → `BatchNormalization` → `ReLU`
-- `MaxPooling3D`
-- 2× `Conv3D(64)` → `BatchNormalization` → `ReLU`
-- `MaxPooling3D`
-- 2× `Conv3D(32)` → `BatchNormalization` → `ReLU`
-- `MaxPooling3D`
-
-#### Dense Layers:
-- `Flatten`
-- `Dense(512)` → `ReLU` → `Dropout(0.2)`
-- `Dense(256)` → `ReLU` → `Dropout(0.2)`
-- `Dense(num_classes)` → `Softmax`
+<img src="img/CNN.png" alt="CNN Architecture" width="500"/>
 
 This architecture is designed to extract **rich spatiotemporal features** from short video-patches and is optimized for **binary classification tasks**.
 
