@@ -1,5 +1,5 @@
 # CBVCC_CNN – 3D CNN for Video Classification
-This repository implements a full pipeline for training and evaluating a video classification model using 3D Convolutional Neural Networks (3D CNNs) for the Cell Behavior Video Classification Challenge (CBVCC). More details about CBVCC are available on the [official challenge page](https://immunemap.org/index.php/challenges-menu/cbvcc).
+This repository implements a full pipeline for training and evaluating a video classification model using 3D Convolutional Neural Networks (3D CNNs) for the Cell Behavior Video Classification Challenge (CBVCC). More details about CBVCC are available on the [official challenge page](https://immunemap.org/index.php/challenges-menu/cbvcc) and on the [official GitHub page](https://github.com/rcabini/CBVCC).
 
 This project was developed by the **dp-lab team**, more informations about our lab at [dp-lab website](https://www.dp-lab.info/).
 
