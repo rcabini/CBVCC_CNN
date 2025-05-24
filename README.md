@@ -1,9 +1,11 @@
-# CBVCC_CNN – 3D Convolutional Video Classification
+# CBVCC_CNN – 3D CNN for Video Classification
 This repository implements a full pipeline for training and evaluating a video classification model using 3D Convolutional Neural Networks (3D CNNs) for the Cell Behavior Video Classification Challenge (CBVCC).
 
 ## Model Architecture
 
 The classification model is a **3D Convolutional Neural Network (3D CNN)**. It processes input tensors of shape `(20, 50, 50, 3)` representing a video-patch of 20 frames, each 50×50 pixels, RGB.
+
+![CNN Architecture](img/CNN.png)
 
 ### Layers Summary:
 
