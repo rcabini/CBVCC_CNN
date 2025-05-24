@@ -5,7 +5,9 @@ This repository implements a full pipeline for training and evaluating a video c
 
 The classification model is a **3D Convolutional Neural Network (3D CNN)**. It processes input tensors of shape `(20, 50, 50, 3)` representing a video-patch of 20 frames, each 50×50 pixels, RGB.
 
-<img src="img/CNN.png" alt="CNN Architecture" width="500"/>
+<p align="center">
+  <img src="img/CNN.png" alt="CNN Architecture" width="500"/>
+</p>
 
 This architecture is designed to extract **rich spatiotemporal features** from short video-patches and is optimized for **binary classification tasks**.
 
